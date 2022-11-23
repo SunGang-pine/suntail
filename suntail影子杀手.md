@@ -16,13 +16,26 @@
 
 
 
+这个文档的书写过程
+
+1. 首先在语雀中编写计划：https://www.yuque.com/songguopinenut/adbgu1/tga40plt79x63hga#an5px9xtwa2uq3ffy7p7g1cgv2kauy5g
+2. 每天制定一个计划，然后执行他。
+3. 每天提交到github
+
+
+
+
+
+
+
 参考资料：
 
 1. 千古图文：https://web.qianguyihao.com/#%E5%89%8D%E8%A8%80
 2. 前端面试之道yck：
    - https://yuchengkai.cn/
    - 30多块钱买的，前端面试之道：https://appstyndchc4700.h5.xiaoeknow.com/p/course/column/p_62eb4931e4b00a4f372f29ec?type=3&share_user_id=u_630444873a380_tOqYPBnaXs&share_type=5&scene=%E5%88%86%E4%BA%AB&entry=2&entry_type=2002
-3. [其他的东西在各个章节，进行补充。]
+3. 被删的前端游乐场：http://www.godbasin.com/
+4. [其他的东西在各个章节，进行补充。]
 
 
 
@@ -34,39 +47,82 @@
 
 ## 0.1 什么是前端
 
-## 0.2 前端的一些概念
+> http://www.godbasin.com/front-end-basic/front-end/front-end-1.html
 
-## 0.3 开发前端的工具
 
-### 0.3.1 VS Code
+
+## 0.2 开发前端的工具
+
+### 0.2.1 VS Code
 
 > 全面解析：https://web.qianguyihao.com/00-%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/01-VS%20Code%E7%9A%84%E4%BD%BF%E7%94%A8.html
 
 
 
-### 0.3.2 Git
+一些插件：
+
+
+
+### 0.2.2 Git
 
 > 代码重工的Git教程，图文并茂：http://heavy_code_industry.gitee.io/code_heavy_industry/pro008-Git/lecture/
-
-第一章 初识版本控制
-
-第二章 命令行本地库操作
-
-第三章 命令行远程库操作
+>
+> 加强：https://web.qianguyihao.com/00-%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/02-Git%E7%9A%84%E4%BD%BF%E7%94%A8.html
 
 
 
-本地库：
+- 将本地库的东西上传至远程库(github)。按照基础步骤就好了。
 
-远程库：
+> https://github.com/SunGang-pine/emptyProject
 
-git branch -M main：将master分支重命名为main。
+```
+echo "# emptyProject" >> README.md											// 创建一个README.md的文件
+git init																	// 初始化git
+git add README.md															// 将README.md加入暂存区
+git commit -m "first commit"												// 将暂存区的文件提交到本地库
+git branch -M main															// 将当前分支重命名为main
+git remote add origin git@github.com:SunGang-pine/emptyProject.git			// 添加一个远程版本库，别名为origin
+git push -u origin main														// 以下命令将本地的 main 分支推送到 origin 主机的 main 分支
+```
 
 
 
+- 一些基础的概念
+
+```
+- 初始化git init
+- 克隆git clone
+
+
+- git status：位于那个分支
+
+
+- git add .  ：工作区文件全部添加到暂存区
+- git commit -m "firstmark"：暂存区提交到本地库，并附带注释
+- 
+- git push origin master：提交到远程库
+- git pull ：拉代码
+- 
+- git branch -a ：查看全部分支
+- git checkout -b dev：创建新的分支
+- git checkout master：切换到master分支
+- git merge dev：在master分支合并dev分支
+- git branch -D dev：删除本地dev分支
+
+如果想要删除远程的dev分支？
+
+- git push origin :dev：为空放到dev中，即为删除
+- 
+- git reset --hard head^：回退到之前的那个版本（初始提交）操作
+- 
+- git reflog：查看日志
+- git log：查看提交历史
+- git reset --hard HEAD@{1}：回退指定位置(后面可以为代码参数)
+```
 
 
 
+- Git的客户端工具
 
 
 
@@ -143,30 +199,6 @@ git branch -M main：将master分支重命名为main。
 ### 4.4.1 什么是Uniapp
 
 ### 4.4.2 Uniapp的一些基础概念
-
-
-
-
-
-# 5. 做过的项目总结
-
-> 对于一个项目的总结，技术栈？难点？你做了什么？
-
-## 5.1 无花果用户端
-
-
-
-## 5.2 无花果超管端
-
-
-
-## 5.3 无花果H5
-
-
-
-
-
-
 
 
 
