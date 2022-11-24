@@ -26,6 +26,8 @@
 
 
 
+面试版：详情见---》暧昧100天
+
 
 
 参考资料：
@@ -41,7 +43,7 @@
 
 
 
-文档目录结构，参考JavaGuide的面试突击版。
+
 
 # 0. 前端
 
@@ -53,7 +55,7 @@
 
 ## 0.2 开发前端的工具
 
-### 0.2.1 VS Code
+### VS Code
 
 > 全面解析：https://web.qianguyihao.com/00-%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/01-VS%20Code%E7%9A%84%E4%BD%BF%E7%94%A8.html
 
@@ -63,11 +65,13 @@
 
 
 
-### 0.2.2 Git
+### Git
 
 > 代码重工的Git教程，图文并茂：http://heavy_code_industry.gitee.io/code_heavy_industry/pro008-Git/lecture/
 >
 > 加强：https://web.qianguyihao.com/00-%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/02-Git%E7%9A%84%E4%BD%BF%E7%94%A8.html
+>
+> 命令查询：https://www.runoob.com/git/git-tutorial.html
 
 
 
@@ -122,7 +126,37 @@ git push -u origin main														// 以下命令将本地的 main 分支推�
 
 
 
-- Git的客户端工具
+- Git的客户端工具：不推荐了，直接使用命令行吧
+
+
+
+
+
+## 0.3 浏览器
+
+> 被删的浏览器的基本全面讲解：http://www.godbasin.com/front-end-basic/front-end/front-end-6.html
+>
+> 2013年的文章，言简意赅，浏览器的渲染原理：https://coolshell.cn/articles/9666.html
+
+
+
+1. 主流的浏览器
+2. 浏览器的内核
+3. 浏览器主要组成
+4. 浏览器如何渲染页面
+5. 浏览器的加载顺序？
+6. 当我们输入一个网址，按下回车的时候发生了什么？
+7. Repaint--重绘和Reflow(Layout)--回流，怎么会触发？如何减少？
+
+
+
+
+
+# 前端三剑客
+
+- HTML（HyperText Markup Language）：超文本标记语言。从**语义**的角度描述页面的**结构**。相当于人的身体组织结构。
+- CSS（Cascading Style Sheets）：层叠样式表。从**审美**的角度美化页面的**样式**。相当于人的衣服和打扮。
+- JS：JavaScript。从**交互**的角度描述页面的**行为**。相当于人的动作，让人有生命力。
 
 
 
@@ -130,7 +164,27 @@ git push -u origin main														// 以下命令将本地的 main 分支推�
 
 ## 1.1 什么是HTML
 
+- HTML，超文本标记语言，从语义的角度描述页面的结构，相当于人身体的组织结构。使用很多标签来给文本赋予不同的语义，例如<h1>标签，就是给文本添加上主标题的语义。
+
+  
+
 ## 1.2 HTML的语义化
+
+```
+HTML5新增的一些语义化标签
+
+<header><nav><section><article><aside><footer><audio><video>等等
+
+<header>：页眉
+<nav>：导航
+<section>：区块
+<article>：文章
+<aside>：侧边栏
+<footer>：页脚
+<audio>：音频
+<video>：视频
+等等
+```
 
 
 
@@ -140,7 +194,20 @@ git push -u origin main														// 以下命令将本地的 main 分支推�
 
 ## 1.1 什么是CSS
 
+- CSS名为层叠样式表，它可以用来定义网页样式。它将网页的显示样式进行分离，提高了显示能力。
+
+
+
 ## 1.2 CSS的一些基础概念
+
+- 基础选择器和CSS3中的选择器，选择器权重问题。
+- 页面布局
+
+
+
+
+
+
 
 
 
@@ -207,3 +274,8 @@ git push -u origin main														// 以下命令将本地的 main 分支推�
 # 999、面试
 
 > 注意事项~~~~
+
+
+
+
+
