@@ -141,8 +141,15 @@ git push -u origin main														// 以下命令将本地的 main 分支推�
 
 
 1. 主流的浏览器
+   - Chrome
+   - Firefox
+   - Edge
 2. 浏览器的内核
+   - Webkit
+   - Blink
 3. 浏览器主要组成
+   - 渲染引擎（浏览器内核）
+   - JavaScript引擎
 4. 浏览器如何渲染页面
 5. 浏览器的加载顺序？
 6. 当我们输入一个网址，按下回车的时候发生了什么？
